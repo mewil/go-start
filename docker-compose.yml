@@ -1,0 +1,9 @@
+version: '2'
+services:
+  project_name:
+    image: project_name
+    build:
+      context: ./
+    restart: always
+    volumes:
+      - ./:/go/src/github.com/[YOUR_NAME]/[PROJECT_NAME]/
